@@ -349,19 +349,21 @@ footer.site-footer a {
     color: rgba(255, 255, 255, 0.85);
 }
 
+/* Responsive */
 @media (max-width: 991px) {
-    .hero-logo {
-        max-width: 200px;
-        margin-top: 1rem;
+    .hero,
+    section {
+        min-height: auto;
     }
 }
 
 @media (max-width: 767px) {
-    .hero .isobars {
-        display: none;
+    .hero,
+    section {
+        padding: 3rem 0;
     }
 
-    section {
-        padding: 3.25rem 0;
+    .section-head {
+        margin-bottom: 2rem;
     }
 }
