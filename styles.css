@@ -1,15 +1,15 @@
+/* Variables */
 :root {
     --navbar-height: 65px;
-    --ink: #000C32;
-    --paper: #f4f7fb;
-    --cloud: #e8eef8;
-    --storm: #044AC0;
-    --storm-dark: #000C32;
-    --cyan: #3BA9F4;
-    --amber: #3BA9F4;
-    --text: #0b1528;
-    --muted: #4e5f7a;
-    --line: #cbd8ec;
+    --ink: #000C32;         /* Dark navy base */
+    --paper: #f4f7fb;       /* Page background */
+    --cloud: #e8eef8;       /* Light blue-gray */
+    --storm: #044AC0;       /* Primary blue */
+    --storm-dark: #000C32;  /* Navbar background */
+    --cyan: #3BA9F4;        /* Accent cyan */
+    --text: #0b1528;        /* Body text */
+    --muted: #4e5f7a;       /* Secondary/muted text */
+    --line: #cbd8ec;        /* Border lines */
 }
 
 html {
@@ -45,7 +45,7 @@ a {
     color: var(--storm);
 }
 
-/* ---------- Buttons ---------- */
+/* Buttons */
 .btn-primary-theme {
     background-color: var(--storm);
     color: #fff;
@@ -76,10 +76,10 @@ a {
     box-shadow: 0 4px 15px rgba(59, 169, 244, 0.4);
 }
 
-/* ---------- Navbar ---------- */
+/* Navbar */
 .navbar {
     background: var(--storm-dark);
-    border-bottom: 2px solid var(--amber);
+    border-bottom: 2px solid var(--cyan);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 0.4rem 0;
 }
@@ -110,11 +110,11 @@ a {
 }
 
 .navbar-nav .nav-link.active {
-    color: var(--amber);
+    color: var(--cyan);
     font-weight: 600;
 }
 
-/* ---------- Hero (Jumbotron-style) ---------- */
+/* Hero */
 .hero {
     background: var(--ink);
     color: #fff;
@@ -152,7 +152,7 @@ a {
     font-size: 1.08rem;
 }
 
-/* ---------- Section chrome ---------- */
+/* Sections */
 section {
     padding: 3.5rem 0;
     min-height: calc(100vh - var(--navbar-height));
@@ -189,7 +189,7 @@ section {
     background: var(--cloud);
 }
 
-/* ---------- Cards ---------- */
+/* Cards */
 .card {
     border: 1px solid var(--line);
     border-radius: 10px;
@@ -242,7 +242,7 @@ section {
     box-shadow: none;
 }
 
-/* Gallery carousel */
+/* Gallery */
 #galleryCarousel {
     width: 100%;
     max-width: 380px;
@@ -301,7 +301,7 @@ section {
     background-position: center;
 }
 
-/* Mission/vision */
+/* Mission & Vision */
 .mv-card {
     background: #fff;
     height: 100%;
